@@ -6,7 +6,7 @@ import org.junit.Test;
 import main.Usuario;
 import main.UsuarioNegocio;
 
-public class CadastrarUsuarioTest {
+public class UsuarioTest {
 	UsuarioNegocio un = new UsuarioNegocio();
 
 	@Test

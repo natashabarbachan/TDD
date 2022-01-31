@@ -4,13 +4,6 @@ public class UsuarioNegocio {
 
 	private UsuarioRepositorio rep = new UsuarioRepositorio();
 
-	public UsuarioNegocio() {
-	}
-
-	public UsuarioNegocio(UsuarioRepositorio usRepo) {
-		this.rep = usRepo;
-	}
-
 	public boolean cadastrarUsuario(Usuario usuario) {
 
 		// Valida se algum campo é null
